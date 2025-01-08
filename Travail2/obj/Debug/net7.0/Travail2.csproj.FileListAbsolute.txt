@@ -1,0 +1,15 @@
+/home/amadou/C_sharp/Travail2/bin/Debug/net7.0/Travail2
+/home/amadou/C_sharp/Travail2/bin/Debug/net7.0/Travail2.deps.json
+/home/amadou/C_sharp/Travail2/bin/Debug/net7.0/Travail2.runtimeconfig.json
+/home/amadou/C_sharp/Travail2/bin/Debug/net7.0/Travail2.dll
+/home/amadou/C_sharp/Travail2/bin/Debug/net7.0/Travail2.pdb
+/home/amadou/C_sharp/Travail2/obj/Debug/net7.0/Travail2.csproj.AssemblyReference.cache
+/home/amadou/C_sharp/Travail2/obj/Debug/net7.0/Travail2.GeneratedMSBuildEditorConfig.editorconfig
+/home/amadou/C_sharp/Travail2/obj/Debug/net7.0/Travail2.AssemblyInfoInputs.cache
+/home/amadou/C_sharp/Travail2/obj/Debug/net7.0/Travail2.AssemblyInfo.cs
+/home/amadou/C_sharp/Travail2/obj/Debug/net7.0/Travail2.csproj.CoreCompileInputs.cache
+/home/amadou/C_sharp/Travail2/obj/Debug/net7.0/Travail2.dll
+/home/amadou/C_sharp/Travail2/obj/Debug/net7.0/refint/Travail2.dll
+/home/amadou/C_sharp/Travail2/obj/Debug/net7.0/Travail2.pdb
+/home/amadou/C_sharp/Travail2/obj/Debug/net7.0/Travail2.genruntimeconfig.cache
+/home/amadou/C_sharp/Travail2/obj/Debug/net7.0/ref/Travail2.dll

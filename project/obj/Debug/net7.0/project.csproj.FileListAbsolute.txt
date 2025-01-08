@@ -1,0 +1,15 @@
+/home/amadou/C_sharp/project/bin/Debug/net7.0/project
+/home/amadou/C_sharp/project/bin/Debug/net7.0/project.deps.json
+/home/amadou/C_sharp/project/bin/Debug/net7.0/project.runtimeconfig.json
+/home/amadou/C_sharp/project/bin/Debug/net7.0/project.dll
+/home/amadou/C_sharp/project/bin/Debug/net7.0/project.pdb
+/home/amadou/C_sharp/project/obj/Debug/net7.0/project.csproj.AssemblyReference.cache
+/home/amadou/C_sharp/project/obj/Debug/net7.0/project.GeneratedMSBuildEditorConfig.editorconfig
+/home/amadou/C_sharp/project/obj/Debug/net7.0/project.AssemblyInfoInputs.cache
+/home/amadou/C_sharp/project/obj/Debug/net7.0/project.AssemblyInfo.cs
+/home/amadou/C_sharp/project/obj/Debug/net7.0/project.csproj.CoreCompileInputs.cache
+/home/amadou/C_sharp/project/obj/Debug/net7.0/project.dll
+/home/amadou/C_sharp/project/obj/Debug/net7.0/refint/project.dll
+/home/amadou/C_sharp/project/obj/Debug/net7.0/project.pdb
+/home/amadou/C_sharp/project/obj/Debug/net7.0/project.genruntimeconfig.cache
+/home/amadou/C_sharp/project/obj/Debug/net7.0/ref/project.dll
