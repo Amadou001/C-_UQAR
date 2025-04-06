@@ -3,11 +3,17 @@
   "Client": {
     "$type": "GestionMagasin.Client, Travail1",
     "Nom": "Diallo",
-    "Prenom": "Mamadou",
-    "Email": "mamadou.diallo@gmail.com",
-    "Id": 485976
+    "Prenom": "Abdoulaye",
+    "Email": "abdoulaye.diallo@gmail.com",
+    "Id": 509019
   },
-  "Vendeur": null,
+  "Vendeur": {
+    "$type": "GestionMagasin.Vendeur, Travail1",
+    "Nom": "Leno",
+    "Prenom": "Antoine",
+    "Email": "antoine.leno@gmail.com",
+    "Id": 799812
+  },
   "Article": {
     "$type": "GestionMagasin.Bouquet, Travail1",
     "listFleurs": {
@@ -51,5 +57,5 @@
     "Prix": 14.7
   },
   "TypePaiement": "cash",
-  "Status": "en attente"
+  "Status": "Validée"
 }

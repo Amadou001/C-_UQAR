@@ -3,7 +3,7 @@
     "Nom": "Rose",
     "Couleur": "Rouge",
     "Description": "Parfumée et symbolise l'amour",
-    "Quantite": 8,
+    "Quantite": 7,
     "Prix": 3.4
   },
   {
@@ -157,7 +157,7 @@
     "Nom": "Cosmos",
     "Couleur": "Rose",
     "Description": "Fleurs aériennes",
-    "Quantite": 9,
+    "Quantite": 8,
     "Prix": 2.2
   },
   {
@@ -178,14 +178,14 @@
     "Nom": "Aster",
     "Couleur": "Violet",
     "Description": "Floraison automnale",
-    "Quantite": 9,
+    "Quantite": 8,
     "Prix": 2.8
   },
   {
     "Nom": "Bégonia",
     "Couleur": "Rose",
     "Description": "Fleur en pot ou en massif",
-    "Quantite": 8,
+    "Quantite": 7,
     "Prix": 3.9
   },
   {
@@ -199,7 +199,7 @@
     "Nom": "Pavot",
     "Couleur": "Rouge",
     "Description": "Délicate et éphémère",
-    "Quantite": 8,
+    "Quantite": 7,
     "Prix": 2.8
   },
   {
@@ -208,5 +208,12 @@
     "Description": "Tropicale et décorative",
     "Quantite": 10,
     "Prix": 3.5
+  },
+  {
+    "Nom": "Pétal",
+    "Couleur": "bleu",
+    "Description": "Magnifique fleur",
+    "Quantite": 8,
+    "Prix": 2.3
   }
 ]

@@ -1,3 +1,6 @@
+/home/amadou/C_sharp/Session_Hiver/Travail1/obj/Debug/net7.0/Travail1.csproj.AssemblyReference.cache
+/home/amadou/C_sharp/Session_Hiver/Travail1/obj/Debug/net7.0/Travail1.GeneratedMSBuildEditorConfig.editorconfig
+/home/amadou/C_sharp/Session_Hiver/Travail1/obj/Debug/net7.0/Travail1.csproj.CoreCompileInputs.cache
 /home/amadou/C_sharp/Session_Hiver/Travail1/bin/Debug/net7.0/Travail1
 /home/amadou/C_sharp/Session_Hiver/Travail1/bin/Debug/net7.0/Travail1.deps.json
 /home/amadou/C_sharp/Session_Hiver/Travail1/bin/Debug/net7.0/Travail1.runtimeconfig.json
@@ -34,11 +37,6 @@
 /home/amadou/C_sharp/Session_Hiver/Travail1/bin/Debug/net7.0/PdfSharp.dll
 /home/amadou/C_sharp/Session_Hiver/Travail1/bin/Debug/net7.0/de/PdfSharp.Charting.resources.dll
 /home/amadou/C_sharp/Session_Hiver/Travail1/bin/Debug/net7.0/de/PdfSharp.resources.dll
-/home/amadou/C_sharp/Session_Hiver/Travail1/obj/Debug/net7.0/Travail1.csproj.AssemblyReference.cache
-/home/amadou/C_sharp/Session_Hiver/Travail1/obj/Debug/net7.0/Travail1.GeneratedMSBuildEditorConfig.editorconfig
-/home/amadou/C_sharp/Session_Hiver/Travail1/obj/Debug/net7.0/Travail1.AssemblyInfoInputs.cache
-/home/amadou/C_sharp/Session_Hiver/Travail1/obj/Debug/net7.0/Travail1.AssemblyInfo.cs
-/home/amadou/C_sharp/Session_Hiver/Travail1/obj/Debug/net7.0/Travail1.csproj.CoreCompileInputs.cache
 /home/amadou/C_sharp/Session_Hiver/Travail1/obj/Debug/net7.0/Travail1.csproj.CopyComplete
 /home/amadou/C_sharp/Session_Hiver/Travail1/obj/Debug/net7.0/Travail1.dll
 /home/amadou/C_sharp/Session_Hiver/Travail1/obj/Debug/net7.0/refint/Travail1.dll

@@ -6,28 +6,28 @@
       "Nom": "Bah",
       "Prenom": "Amadou",
       "Email": "amadou.bah@gmail.com",
-      "Id": 191527
+      "Id": 174711
     },
     {
       "$type": "GestionMagasin.Vendeur, Travail1",
       "Nom": "Leno",
       "Prenom": "Antoine",
       "Email": "antoine.leno@gmail.com",
-      "Id": 499440
+      "Id": 799812
     },
     {
       "$type": "GestionMagasin.Fournisseur, Travail1",
       "Nom": "Doumbouya",
       "Prenom": "Nouhan",
       "Email": "nouhan.doumbouya@gmail.com",
-      "Id": 590923
+      "Id": 202129
     },
     {
       "$type": "GestionMagasin.Client, Travail1",
       "Nom": "Diallo",
-      "Prenom": "Mamadou",
-      "Email": "mamadou.diallo@gmail.com",
-      "Id": 485976
+      "Prenom": "Abdoulaye",
+      "Email": "abdoulaye.diallo@gmail.com",
+      "Id": 509019
     }
   ]
 }

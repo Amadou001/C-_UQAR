@@ -1,0 +1,12 @@
+/home/amadou/C_sharp/Session_Hiver/Travail1/ProgramClasses/obj/Debug/net7.0/ProgramClasses.csproj.AssemblyReference.cache
+/home/amadou/C_sharp/Session_Hiver/Travail1/ProgramClasses/obj/Debug/net7.0/ProgramClasses.GeneratedMSBuildEditorConfig.editorconfig
+/home/amadou/C_sharp/Session_Hiver/Travail1/ProgramClasses/obj/Debug/net7.0/ProgramClasses.AssemblyInfoInputs.cache
+/home/amadou/C_sharp/Session_Hiver/Travail1/ProgramClasses/obj/Debug/net7.0/ProgramClasses.AssemblyInfo.cs
+/home/amadou/C_sharp/Session_Hiver/Travail1/ProgramClasses/obj/Debug/net7.0/ProgramClasses.csproj.CoreCompileInputs.cache
+/home/amadou/C_sharp/Session_Hiver/Travail1/ProgramClasses/bin/Debug/net7.0/ProgramClasses.deps.json
+/home/amadou/C_sharp/Session_Hiver/Travail1/ProgramClasses/bin/Debug/net7.0/ProgramClasses.dll
+/home/amadou/C_sharp/Session_Hiver/Travail1/ProgramClasses/bin/Debug/net7.0/ProgramClasses.pdb
+/home/amadou/C_sharp/Session_Hiver/Travail1/ProgramClasses/obj/Debug/net7.0/ProgramClasses.dll
+/home/amadou/C_sharp/Session_Hiver/Travail1/ProgramClasses/obj/Debug/net7.0/refint/ProgramClasses.dll
+/home/amadou/C_sharp/Session_Hiver/Travail1/ProgramClasses/obj/Debug/net7.0/ProgramClasses.pdb
+/home/amadou/C_sharp/Session_Hiver/Travail1/ProgramClasses/obj/Debug/net7.0/ref/ProgramClasses.dll

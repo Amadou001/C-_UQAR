@@ -8,13 +8,15 @@
         <Name>Utilisateur</Name>
         <Access>Public</Access>
         <Location left="376" top="10" />
-        <Size width="162" height="178" />
+        <Size width="162" height="196" />
         <Collapsed>False</Collapsed>
         <Member type="Field">string nom</Member>
         <Member type="Field">string prenom</Member>
         <Member type="Field">int id</Member>
         <Member type="Field">string email</Member>
         <Member type="Method">public abstract void Seconnecter()</Member>
+        <Member type="Method">public void ToJson()</Member>
+        <Member type="Method">public void FromJson()</Member>
         <Modifier>Abstract</Modifier>
       </Entity>
       <Entity type="Class">
@@ -30,16 +32,16 @@
         <Name>Fournisseur</Name>
         <Access>Public</Access>
         <Location left="256" top="305" />
-        <Size width="198" height="99" />
+        <Size width="177" height="99" />
         <Collapsed>False</Collapsed>
-        <Member type="Method">public void ApprovisionnerMagasin()</Member>
+        <Member type="Method">public void AjouterProduit()</Member>
         <Modifier>None</Modifier>
       </Entity>
       <Entity type="Class">
         <Name>Vendeur</Name>
         <Access>Public</Access>
         <Location left="488" top="305" />
-        <Size width="171" height="111" />
+        <Size width="203" height="111" />
         <Collapsed>False</Collapsed>
         <Member type="Method">public void ValiderCommande()</Member>
         <Member type="Method">public void EnregistrerModelBouquet()</Member>
@@ -49,22 +51,25 @@
         <Name>Propriétaire</Name>
         <Access>Public</Access>
         <Location left="703" top="305" />
-        <Size width="204" height="128" />
+        <Size width="204" height="145" />
         <Collapsed>False</Collapsed>
         <Member type="Method">public void AjouterVendeur()</Member>
         <Member type="Method">public void SupprimerVendeur()</Member>
-        <Member type="Method">public void ModifierInfoVendeur()</Member>
+        <Member type="Method">public void AjouterFournisseur()</Member>
+        <Member type="Method">public void SupprimerFournisseur()</Member>
         <Modifier>None</Modifier>
       </Entity>
       <Entity type="Class">
         <Name>Fleur</Name>
         <Access>Public</Access>
-        <Location left="1215" top="305" />
-        <Size width="162" height="145" />
+        <Location left="1125" top="305" />
+        <Size width="210" height="162" />
         <Collapsed>False</Collapsed>
         <Member type="Field">string nom</Member>
         <Member type="Field">string couleur</Member>
         <Member type="Field">string description</Member>
+        <Member type="Field">int quantité</Member>
+        <Member type="Method">public void LoadFleursFromCsv()</Member>
         <Modifier>None</Modifier>
       </Entity>
       <Entity type="Class">
@@ -74,6 +79,7 @@
         <Size width="162" height="145" />
         <Collapsed>False</Collapsed>
         <Member type="Field">Fleur fleur</Member>
+        <Member type="Field">int model</Member>
         <Member type="Method">public void AjouterFleur()</Member>
         <Member type="Method">public double CalculerPrix()</Member>
         <Modifier>None</Modifier>
@@ -81,15 +87,18 @@
       <Entity type="Class">
         <Name>Commande</Name>
         <Access>Public</Access>
-        <Location left="757" top="747" />
-        <Size width="162" height="179" />
+        <Location left="703" top="747" />
+        <Size width="222" height="230" />
         <Collapsed>False</Collapsed>
         <Member type="Field">Client client</Member>
         <Member type="Field">Vendeur vendeur</Member>
         <Member type="Field">Article article</Member>
         <Member type="Field">string status</Member>
-        <Member type="Field">IMoyenPaiement moyenPaiement</Member>
-        <Member type="Method">public void PasserCommande()</Member>
+        <Member type="Field">MoyenPaiement moyenPaiement</Member>
+        <Member type="Method">public double CalculerPrixTotal()</Member>
+        <Member type="Method">public void ValiderCommande()</Member>
+        <Member type="Method">public void ToJson()</Member>
+        <Member type="Method">public static Commande FromJson()</Member>
         <Modifier>None</Modifier>
       </Entity>
       <Entity type="Class">
@@ -99,62 +108,24 @@
         <Size width="162" height="140" />
         <Collapsed>False</Collapsed>
         <Member type="Field">double prix</Member>
+        <Member type="Method">public abstract void ToJson()</Member>
+        <Member type="Method">public abstract void FromJson()</Member>
         <Modifier>Abstract</Modifier>
       </Entity>
       <Entity type="Class">
         <Name>Facture</Name>
         <Access>Public</Access>
         <Location left="1170" top="605" />
-        <Size width="203" height="163" />
+        <Size width="203" height="196" />
         <Collapsed>False</Collapsed>
         <Member type="Field">Commande commande</Member>
         <Member type="Field">double prixTotal</Member>
         <Member type="Field">MoyenPaiment modePaiement</Member>
+        <Member type="Field">DateTime date</Member>
         <Member type="Method">public void GénérerFacture()</Member>
+        <Member type="Method">public void ToJson()</Member>
+        <Member type="Method">public void FromJson()</Member>
         <Modifier>None</Modifier>
-      </Entity>
-      <Entity type="Class">
-        <Name>Carte</Name>
-        <Access>Public</Access>
-        <Location left="176" top="825" />
-        <Size width="162" height="111" />
-        <Collapsed>False</Collapsed>
-        <Member type="Field">string numéro</Member>
-        <Member type="Field">int codeSécurité</Member>
-        <Modifier>Abstract</Modifier>
-      </Entity>
-      <Entity type="Class">
-        <Name>Cash</Name>
-        <Access>Public</Access>
-        <Location left="488" top="825" />
-        <Size width="162" height="111" />
-        <Collapsed>False</Collapsed>
-        <Modifier>None</Modifier>
-      </Entity>
-      <Entity type="Class">
-        <Name>CarteDébit</Name>
-        <Access>Public</Access>
-        <Location left="29" top="1032" />
-        <Size width="162" height="104" />
-        <Collapsed>False</Collapsed>
-        <Modifier>None</Modifier>
-      </Entity>
-      <Entity type="Class">
-        <Name>CarteCredit</Name>
-        <Access>Public</Access>
-        <Location left="342" top="1032" />
-        <Size width="162" height="110" />
-        <Collapsed>False</Collapsed>
-        <Modifier>None</Modifier>
-      </Entity>
-      <Entity type="Class">
-        <Name>IMoyenPaiement</Name>
-        <Access>Public</Access>
-        <Location left="342" top="617" />
-        <Size width="162" height="135" />
-        <Collapsed>False</Collapsed>
-        <Member type="Method">public abstract void EffectuerPaiment()</Member>
-        <Modifier>Abstract</Modifier>
       </Entity>
       <Entity type="Enum">
         <Name>MoyenPaiement</Name>
@@ -165,6 +136,23 @@
         <Value>CarteDebit</Value>
         <Value>CarteCredit</Value>
         <Value>Cash</Value>
+      </Entity>
+      <Entity type="Class">
+        <Name>GestionMenus</Name>
+        <Access>Public</Access>
+        <Location left="197" top="676" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void ClientMenu()</Member>
+        <Member type="Method">public void VenduMenu()</Member>
+        <Member type="Method">public void ProprietaireMenu()</Member>
+        <Member type="Method">public void FournisseurMenu()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Comment">
+        <Text>Ce ne sont pas toutes les opérations qui sont mentionées ici. Juste les plus importantes ont été choisies</Text>
+        <Location left="843" top="48" />
+        <Size width="160" height="158" />
       </Entity>
     </Entities>
     <Relationships>
@@ -189,14 +177,6 @@
         <EndOrientation>Vertical</EndOrientation>
       </Relationship>
       <Relationship type="Generalization" first="6" second="8">
-        <StartOrientation>Vertical</StartOrientation>
-        <EndOrientation>Vertical</EndOrientation>
-      </Relationship>
-      <Relationship type="Generalization" first="12" second="10">
-        <StartOrientation>Vertical</StartOrientation>
-        <EndOrientation>Vertical</EndOrientation>
-      </Relationship>
-      <Relationship type="Generalization" first="13" second="10">
         <StartOrientation>Vertical</StartOrientation>
         <EndOrientation>Vertical</EndOrientation>
       </Relationship>
@@ -235,20 +215,21 @@
         <StartMultiplicity>1</StartMultiplicity>
         <EndMultiplicity>1</EndMultiplicity>
       </Relationship>
-      <Relationship type="Generalization" first="10" second="14">
-        <StartOrientation>Vertical</StartOrientation>
-        <EndOrientation>Vertical</EndOrientation>
-      </Relationship>
-      <Relationship type="Generalization" first="11" second="14">
-        <StartOrientation>Vertical</StartOrientation>
-        <EndOrientation>Vertical</EndOrientation>
-      </Relationship>
       <Relationship type="Association" first="8" second="7">
         <StartOrientation>Vertical</StartOrientation>
         <EndOrientation>Vertical</EndOrientation>
         <Direction>Unidirectional</Direction>
         <AssociationType>Composition</AssociationType>
         <StartMultiplicity>1..*</StartMultiplicity>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="0" second="11">
+        <Label>a</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartMultiplicity>1</StartMultiplicity>
         <EndMultiplicity>1</EndMultiplicity>
       </Relationship>
     </Relationships>
