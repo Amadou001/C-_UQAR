@@ -1,0 +1,33 @@
+{
+  "$type": "System.Collections.Generic.List`1[[GestionMagasin.Utilisateur, Travail1]], System.Private.CoreLib",
+  "$values": [
+    {
+      "$type": "GestionMagasin.Proprietaire, Travail1",
+      "Nom": "Bah",
+      "Prenom": "Amadou",
+      "Email": "amadou.bah@gmail.com",
+      "Id": 191527
+    },
+    {
+      "$type": "GestionMagasin.Vendeur, Travail1",
+      "Nom": "Leno",
+      "Prenom": "Antoine",
+      "Email": "antoine.leno@gmail.com",
+      "Id": 499440
+    },
+    {
+      "$type": "GestionMagasin.Fournisseur, Travail1",
+      "Nom": "Doumbouya",
+      "Prenom": "Nouhan",
+      "Email": "nouhan.doumbouya@gmail.com",
+      "Id": 590923
+    },
+    {
+      "$type": "GestionMagasin.Client, Travail1",
+      "Nom": "Diallo",
+      "Prenom": "Mamadou",
+      "Email": "mamadou.diallo@gmail.com",
+      "Id": 485976
+    }
+  ]
+}

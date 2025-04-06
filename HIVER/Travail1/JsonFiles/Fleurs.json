@@ -1,0 +1,212 @@
+[
+  {
+    "Nom": "Rose",
+    "Couleur": "Rouge",
+    "Description": "Parfumée et symbolise l'amour",
+    "Quantite": 8,
+    "Prix": 3.4
+  },
+  {
+    "Nom": "Tulipe",
+    "Couleur": "Jaune",
+    "Description": "Printanière et élégante",
+    "Quantite": 8,
+    "Prix": 2.5
+  },
+  {
+    "Nom": "Lys",
+    "Couleur": "Blanc",
+    "Description": "Parfum envoûtant",
+    "Quantite": 10,
+    "Prix": 4.1
+  },
+  {
+    "Nom": "Orchidée",
+    "Couleur": "Violet",
+    "Description": "Exotique et élégante",
+    "Quantite": 8,
+    "Prix": 6.8
+  },
+  {
+    "Nom": "Gerbera",
+    "Couleur": "Orange",
+    "Description": "Grande fleur colorée",
+    "Quantite": 10,
+    "Prix": 2.7
+  },
+  {
+    "Nom": "Pivoine",
+    "Couleur": "Rose",
+    "Description": "Floraison abondante",
+    "Quantite": 10,
+    "Prix": 6.1
+  },
+  {
+    "Nom": "Marguerite",
+    "Couleur": "Blanc",
+    "Description": "Symbole de l’innocence",
+    "Quantite": 10,
+    "Prix": 1.6
+  },
+  {
+    "Nom": "Hortensia",
+    "Couleur": "Bleu",
+    "Description": "Change de couleur selon le sol",
+    "Quantite": 8,
+    "Prix": 5.2
+  },
+  {
+    "Nom": "Chrysanthème",
+    "Couleur": "Jaune",
+    "Description": "Résistante et automnale",
+    "Quantite": 10,
+    "Prix": 3.1
+  },
+  {
+    "Nom": "Jonquille",
+    "Couleur": "Jaune",
+    "Description": "Annonciatrice du printemps",
+    "Quantite": 10,
+    "Prix": 2.0
+  },
+  {
+    "Nom": "Dahlia",
+    "Couleur": "Rouge",
+    "Description": "Fleurs aux formes variées",
+    "Quantite": 10,
+    "Prix": 4.4
+  },
+  {
+    "Nom": "Camélia",
+    "Couleur": "Rose",
+    "Description": "Fleur d'hiver",
+    "Quantite": 10,
+    "Prix": 5.5
+  },
+  {
+    "Nom": "Bleuet",
+    "Couleur": "Bleu",
+    "Description": "Symbole du souvenir",
+    "Quantite": 10,
+    "Prix": 2.3
+  },
+  {
+    "Nom": "Anémone",
+    "Couleur": "Rouge",
+    "Description": "Délicate et printanière",
+    "Quantite": 10,
+    "Prix": 3.3
+  },
+  {
+    "Nom": "Freesia",
+    "Couleur": "Blanc",
+    "Description": "Parfum intense",
+    "Quantite": 10,
+    "Prix": 2.9
+  },
+  {
+    "Nom": "Glaïeul",
+    "Couleur": "Rose",
+    "Description": "Fleurs en épi",
+    "Quantite": 10,
+    "Prix": 3.6
+  },
+  {
+    "Nom": "Renoncule",
+    "Couleur": "Jaune",
+    "Description": "Nombreux pétales délicats",
+    "Quantite": 10,
+    "Prix": 4.0
+  },
+  {
+    "Nom": "Lavande",
+    "Couleur": "Violet",
+    "Description": "Parfum apaisant",
+    "Quantite": 10,
+    "Prix": 2.5
+  },
+  {
+    "Nom": "Jacinthe",
+    "Couleur": "Bleu",
+    "Description": "Parfum puissant",
+    "Quantite": 10,
+    "Prix": 4.8
+  },
+  {
+    "Nom": "Zinnia",
+    "Couleur": "Orange",
+    "Description": "Vive et résistante",
+    "Quantite": 10,
+    "Prix": 2.6
+  },
+  {
+    "Nom": "Muguet",
+    "Couleur": "Blanc",
+    "Description": "Petites clochettes parfumées",
+    "Quantite": 10,
+    "Prix": 3.7
+  },
+  {
+    "Nom": "Tournesol",
+    "Couleur": "Jaune",
+    "Description": "Symbole de soleil et de joie",
+    "Quantite": 10,
+    "Prix": 4.1
+  },
+  {
+    "Nom": "Cosmos",
+    "Couleur": "Rose",
+    "Description": "Fleurs aériennes",
+    "Quantite": 9,
+    "Prix": 2.2
+  },
+  {
+    "Nom": "Giroflée",
+    "Couleur": "Orange",
+    "Description": "Parfum doux et sucré",
+    "Quantite": 10,
+    "Prix": 3.0
+  },
+  {
+    "Nom": "Violette",
+    "Couleur": "Violet",
+    "Description": "Petite fleur parfumée",
+    "Quantite": 9,
+    "Prix": 2.0
+  },
+  {
+    "Nom": "Aster",
+    "Couleur": "Violet",
+    "Description": "Floraison automnale",
+    "Quantite": 9,
+    "Prix": 2.8
+  },
+  {
+    "Nom": "Bégonia",
+    "Couleur": "Rose",
+    "Description": "Fleur en pot ou en massif",
+    "Quantite": 8,
+    "Prix": 3.9
+  },
+  {
+    "Nom": "Capucine",
+    "Couleur": "Orange",
+    "Description": "Comestible et décorative",
+    "Quantite": 10,
+    "Prix": 1.9
+  },
+  {
+    "Nom": "Pavot",
+    "Couleur": "Rouge",
+    "Description": "Délicate et éphémère",
+    "Quantite": 8,
+    "Prix": 2.8
+  },
+  {
+    "Nom": "Hibiscus",
+    "Couleur": "Rouge",
+    "Description": "Tropicale et décorative",
+    "Quantite": 10,
+    "Prix": 3.5
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "listFleurs": [
+      {
+        "Nom": "Cosmos",
+        "Couleur": "Rose",
+        "Description": "Fleurs aériennes",
+        "Quantite": 10,
+        "Prix": 2.2
+      },
+      {
+        "Nom": "Bégonia",
+        "Couleur": "Rose",
+        "Description": "Fleur en pot ou en massif",
+        "Quantite": 9,
+        "Prix": 3.9
+      },
+      {
+        "Nom": "Pavot",
+        "Couleur": "Rouge",
+        "Description": "Délicate et éphémère",
+        "Quantite": 9,
+        "Prix": 2.8
+      },
+      {
+        "Nom": "Aster",
+        "Couleur": "Violet",
+        "Description": "Floraison automnale",
+        "Quantite": 10,
+        "Prix": 2.8
+      }
+    ],
+    "Model": 445167,
+    "Prix": 14.7
+  }
+]

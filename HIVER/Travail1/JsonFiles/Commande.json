@@ -1,0 +1,55 @@
+{
+  "$type": "GestionMagasin.Commande, Travail1",
+  "Client": {
+    "$type": "GestionMagasin.Client, Travail1",
+    "Nom": "Diallo",
+    "Prenom": "Mamadou",
+    "Email": "mamadou.diallo@gmail.com",
+    "Id": 485976
+  },
+  "Vendeur": null,
+  "Article": {
+    "$type": "GestionMagasin.Bouquet, Travail1",
+    "listFleurs": {
+      "$type": "System.Collections.Generic.List`1[[GestionMagasin.Fleur, Travail1]], System.Private.CoreLib",
+      "$values": [
+        {
+          "$type": "GestionMagasin.Fleur, Travail1",
+          "Nom": "Cosmos",
+          "Couleur": "Rose",
+          "Description": "Fleurs aériennes",
+          "Quantite": 10,
+          "Prix": 2.2
+        },
+        {
+          "$type": "GestionMagasin.Fleur, Travail1",
+          "Nom": "Bégonia",
+          "Couleur": "Rose",
+          "Description": "Fleur en pot ou en massif",
+          "Quantite": 9,
+          "Prix": 3.9
+        },
+        {
+          "$type": "GestionMagasin.Fleur, Travail1",
+          "Nom": "Pavot",
+          "Couleur": "Rouge",
+          "Description": "Délicate et éphémère",
+          "Quantite": 9,
+          "Prix": 2.8
+        },
+        {
+          "$type": "GestionMagasin.Fleur, Travail1",
+          "Nom": "Aster",
+          "Couleur": "Violet",
+          "Description": "Floraison automnale",
+          "Quantite": 10,
+          "Prix": 2.8
+        }
+      ]
+    },
+    "Model": 445167,
+    "Prix": 14.7
+  },
+  "TypePaiement": "cash",
+  "Status": "en attente"
+}
